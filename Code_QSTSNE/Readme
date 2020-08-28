@@ -1,1 +1,5 @@
-This code is used to visualize the quantum phases of transverse field Ising model in the embedding space.
+This code is used to visualize the quantum phases of transverse field Ising model (TFIM) in the embedding space.
+There are 3 steps:
+First step: Running the code file "runDMRGIsing.py" in the path of /Model_Run/QTSNE/Ising_spinhalf_chain/ to get the ground states of TFIM.
+Second step: Running the code file "Get_fidelity_matrix.py" in the path of /Model_Run/QTSNE/Ising_spinhalf_chain/ to get the fidelity matrix of quantum states of TFIM.
+Third step: Running the code file "QStsne-show" in the path of /Model_Run/QTSNE/Ising_spinhalf_chain/ to get the visualization of quantum phases of TFIM.  
